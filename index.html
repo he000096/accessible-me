@@ -51,15 +51,19 @@
       </aside>
       <section role="search">
         <h2>Contact Us</h2>
-        <form action="thanks.html">
-          <label>Full Name</label>
-          <input type="text" placeholder="Full Name">
-          <label>Email</label>
-          <input type="text" placeholder="Email">
-          <label>Subject</label>
-          <input type="text" placeholder="Subject">
-          <label>Your Message</label>
-          <textarea></textarea>
+        <form action="thanks.html" method="POST">
+          <label for="full-name">Full Name</label>
+          <input type="text" id="full-name" name="full-name" placeholder="Full Name">
+      
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" placeholder="Email">
+      
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" placeholder="Subject">
+      
+          <label for="message">Your Message</label>
+          <textarea id="message" name="message"></textarea>
+      
           <button type="submit">Send</button>
         </form>
       </section>
